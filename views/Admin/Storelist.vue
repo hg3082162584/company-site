@@ -145,8 +145,8 @@ export default {
         openTime: "",
         longitude: "",
         latitude: "",
-        createUserId: "001134",
-        modifyUserid: "001134",
+        createUserId: "000",
+        modifyUserid: "000",
       },
       options: {},
     };
@@ -174,7 +174,7 @@ export default {
     validAccessToken() {
       this.$http
         .post(
-          "https://gateway.ihotwind.cn/web-user/sso/validAccessToken?accessToken=" +
+          "https://api?accessToken=" +
             this.query.accessToken
         )
         .then((response) => {
