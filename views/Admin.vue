@@ -55,7 +55,7 @@
             <router-view />
           </div>
         </el-main>
-        <el-footer>2021@畹町版权所有</el-footer>
+        <el-footer>2021@版权所有</el-footer>
       </el-container>
     </el-container>
   </div>
