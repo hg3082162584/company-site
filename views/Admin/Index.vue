@@ -205,7 +205,7 @@ export default {
     validAccessToken() {
       this.$http
         .post(
-          "https://gateway.ihotwind.cn/web-user/sso/validAccessToken?accessToken=" +
+          "https://api" +
             this.query.accessToken
         )
         .then((response) => {
