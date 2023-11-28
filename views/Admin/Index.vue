@@ -167,8 +167,8 @@ export default {
         category: null,
         seq: 1,
         image: null,
-        createUserId: "001134",
-        modifyUserid: "001134",
+        createUserId: "000",
+        modifyUserid: "000",
       },
       options: {
         // headers: {
