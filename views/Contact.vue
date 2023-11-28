@@ -3,7 +3,7 @@
    <div class="banner"><img src="/images/contact.png"/></div>
     <div class="contact-cont">
         <p>具体合作详情及资料可发送至</p>
-        <p>xcq@qq.net</p>
+        <p>mail@qq.net</p>
         <p>感谢您对xx的认可</p>
     </div>
   </div>
