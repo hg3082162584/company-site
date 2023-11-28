@@ -51,7 +51,7 @@ export default {
       this.loading = true;
       this.$http
         .get(
-          `https://localhost:5001/api/User/GetUsers?name=${this.formInline.name}&age=${this.formInline.age}&pageIndex=${this.pageIndex}&pageSize=${this.pageSize}`
+          `https://api?name=${this.formInline.name}&age=${this.formInline.age}&pageIndex=${this.pageIndex}&pageSize=${this.pageSize}`
         )
         .then(response => {
           window.console.log(response);
