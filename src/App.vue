@@ -29,13 +29,13 @@
         <div class="footer-content">
           <ul class="content-nav">
             <li>
-              <span>时尚生活用品有限公司</span>
-              <span>地址：上海市闵行区xx路xxxx号</span>
+              <span>xxx有限公司</span>
+              <span>地址：北京市朝阳区xx路xxxx号</span>
             </li>
 
             <li>
-              <span>咨询热线：400-880-4695</span>
-              <span><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备19006805号</a></span>
+              <span>咨询热线：400-400-400</span>
+              <span><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备0000号</a></span>
             </li>
             <li class="footer-right">
               <transition name="el-zoom-in-center">
@@ -76,7 +76,7 @@ export default {
       window.console.log(this.isShow);
     },
     // goToSina(){
-    //   this.$router.push('https://weibo.com/u/5085552951');
+    //   this.$router.push('https://weibo.com/u/1');
     // },
 
   },
